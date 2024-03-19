@@ -1,6 +1,8 @@
 # PipeDAP: An Efficient Communication Framework for Scheduling Decoupled All-Reduce Primitives in Distributed DNN Training #  
 ## Introduction ##
 PipeDAP is a communication mechanism for scheduling decoupled all-reduce primitives in optimal order. PipeDAP is implemented on the PyTorch and DeAR framework. PipeDAP outperforms the state-of-the-art communication scheduling mechanisms including [DeAR](https://github.com/lzhangbv/dear_pytorch), [ByteScheduler](https://github.com/bytedance/byteps/tree/bytescheduler/bytescheduler) and WFBP.
+<div align=center><img src="system%20architecture.png" width="500"/></div> 
+
 ## Installation ##
 ### Prerequisites ###
 * CUDA-10.2  
